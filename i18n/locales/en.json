@@ -1,0 +1,117 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "techStack": "Tech Stack",
+    "projects": "Projects",
+    "openCv": "CV",
+    "menu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "actions": {
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV",
+    "viewProject": "View project",
+    "viewSource": "View source",
+    "visitDemo": "Open demo",
+    "backToHome": "Back to home",
+    "backToTop": "Back to top",
+    "viewAllProjects": "View all projects"
+  },
+  "hero": {
+    "greeting": "Hi everyone, I'm"
+  },
+  "about": {
+    "heading": "About Me",
+    "focusedOn": "Currently focused on:"
+  },
+  "area": {
+    "WEB": "Web Development",
+    "MOBILE": "Mobile Development",
+    "ML_AI": "Machine Learning / AI",
+    "DATA": "Data",
+    "DESIGN": "UI/UX Design",
+    "OTHER": "Other"
+  },
+  "techStack": {
+    "heading": "Tech Stack"
+  },
+  "featured": {
+    "heading": "Selected Projects"
+  },
+  "project": {
+    "viewProject": "View project",
+    "source": "Source",
+    "demo": "Demo",
+    "docs": "Documentation",
+    "gallery": "Gallery",
+    "links": "Links",
+    "related": "Related Projects"
+  },
+  "status": {
+    "COMPLETED": "Completed",
+    "IN_PROGRESS": "In Progress",
+    "ARCHIVED": "Archived"
+  },
+  "category": {
+    "WEB": "Web",
+    "MOBILE": "Mobile",
+    "ML_AI": "ML / AI",
+    "DATA": "Data",
+    "DESIGN": "Design",
+    "OTHER": "Other"
+  },
+  "langSwitcher": {
+    "label": "Choose language",
+    "id": "Indonesian",
+    "en": "English"
+  },
+  "theme": {
+    "label": "Toggle theme",
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "contact": {
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "copyright": "© {year} {name}"
+  },
+  "projects": {
+    "listTitle": "All Projects",
+    "metaDescription": "Web development projects — case studies, the technologies used, and links to source code and live demos.",
+    "empty": "No projects published yet.",
+    "filterLabel": "Filter by category",
+    "filterAll": "All",
+    "sortLabel": "Sort",
+    "sortNewest": "Newest",
+    "sortOldest": "Oldest",
+    "sortTitle": "Title A–Z",
+    "count": "{count} projects",
+    "noMatch": "No projects in this category.",
+    "searchLabel": "Search projects",
+    "searchPlaceholder": "Type a name or technology…",
+    "searchNoMatch": "No projects match \"{query}\". Try a different keyword.",
+    "searchUnavailable": "Search is temporarily unavailable. The list below is still browsable."
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page} of {total}"
+  },
+  "fallback": {
+    "cardBadge": "ID",
+    "cardBadgeLabel": "Only available in Indonesian",
+    "detailBanner": "This page hasn't been translated yet — shown in Indonesian."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for doesn’t exist or has moved.",
+    "toHome": "Go to home",
+    "toProjects": "View all projects"
+  }
+}

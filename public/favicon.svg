@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Portofolio Christian Imanuel Admojo">
+  <defs>
+    <linearGradient id="c-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0C97F"/>
+      <stop offset="1" stop-color="#BF8329"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#111827"/>
+  <path d="M21.9 11.4 A 7.5 7.5 0 1 0 21.9 20.6" fill="none" stroke="url(#c-gold)" stroke-width="4" stroke-linecap="round"/>
+</svg>

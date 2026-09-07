@@ -1,0 +1,117 @@
+{
+  "a11y": {
+    "skipToContent": "Lewati ke konten utama"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "techStack": "Tech Stack",
+    "projects": "Proyek",
+    "openCv": "CV",
+    "menu": "Buka menu",
+    "closeMenu": "Tutup menu"
+  },
+  "actions": {
+    "viewProjects": "Lihat Proyek",
+    "downloadCv": "Unduh CV",
+    "viewProject": "Lihat proyek",
+    "viewSource": "Kode sumber",
+    "visitDemo": "Buka demo",
+    "backToHome": "Kembali ke beranda",
+    "backToTop": "Kembali ke atas",
+    "viewAllProjects": "Lihat semua proyek"
+  },
+  "hero": {
+    "greeting": "Halo semua, saya"
+  },
+  "about": {
+    "heading": "Tentang Saya",
+    "focusedOn": "Fokus saat ini:"
+  },
+  "area": {
+    "WEB": "Pengembangan Web",
+    "MOBILE": "Pengembangan Mobile",
+    "ML_AI": "Machine Learning / AI",
+    "DATA": "Data",
+    "DESIGN": "Desain UI/UX",
+    "OTHER": "Lainnya"
+  },
+  "techStack": {
+    "heading": "Tech Stack"
+  },
+  "featured": {
+    "heading": "Proyek Pilihan"
+  },
+  "project": {
+    "viewProject": "Lihat proyek",
+    "source": "Kode",
+    "demo": "Demo",
+    "docs": "Dokumentasi",
+    "gallery": "Galeri",
+    "links": "Tautan",
+    "related": "Proyek Terkait"
+  },
+  "status": {
+    "COMPLETED": "Selesai",
+    "IN_PROGRESS": "Berjalan",
+    "ARCHIVED": "Diarsipkan"
+  },
+  "category": {
+    "WEB": "Web",
+    "MOBILE": "Mobile",
+    "ML_AI": "ML / AI",
+    "DATA": "Data",
+    "DESIGN": "Desain",
+    "OTHER": "Lainnya"
+  },
+  "langSwitcher": {
+    "label": "Pilih bahasa",
+    "id": "Bahasa Indonesia",
+    "en": "Bahasa Inggris"
+  },
+  "theme": {
+    "label": "Ganti tema",
+    "toLight": "Ganti ke tema terang",
+    "toDark": "Ganti ke tema gelap"
+  },
+  "contact": {
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "copyright": "© {year} {name}"
+  },
+  "projects": {
+    "listTitle": "Semua Proyek",
+    "metaDescription": "Daftar proyek pengembangan web — studi kasus, teknologi yang dipakai, dan tautan ke kode sumber serta demo.",
+    "empty": "Belum ada proyek yang dipublikasikan.",
+    "filterLabel": "Saring per kategori",
+    "filterAll": "Semua",
+    "sortLabel": "Urutkan",
+    "sortNewest": "Terbaru",
+    "sortOldest": "Terlama",
+    "sortTitle": "Judul A–Z",
+    "count": "{count} proyek",
+    "noMatch": "Tidak ada proyek pada kategori ini.",
+    "searchLabel": "Cari proyek",
+    "searchPlaceholder": "Ketik nama atau teknologi…",
+    "searchNoMatch": "Tidak ada proyek yang cocok dengan \"{query}\". Coba kata kunci lain.",
+    "searchUnavailable": "Pencarian sedang tidak tersedia. Daftar di bawah tetap bisa dijelajahi."
+  },
+  "pagination": {
+    "label": "Navigasi halaman",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "page": "Halaman {page} dari {total}"
+  },
+  "fallback": {
+    "cardBadge": "ID",
+    "cardBadgeLabel": "Hanya tersedia dalam bahasa Indonesia",
+    "detailBanner": "Halaman ini belum diterjemahkan — ditampilkan dalam bahasa Indonesia."
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman yang kamu cari tidak ada atau sudah dipindahkan.",
+    "toHome": "Ke beranda",
+    "toProjects": "Lihat semua proyek"
+  }
+}

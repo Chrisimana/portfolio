@@ -1,0 +1,33 @@
+{
+  "name": "Christian Imanuel Admojo",
+  "roles": {
+    "id": ["Mahasiswa Informatika", "Front-End Developer", "Data Scientist", "UI/UX Designer"],
+    "en": ["Informatics Student", "Front-End Developer", "Data Scientist", "UI/UX Designer"]
+  },
+  "headline": {
+    "id": "Portofolio ini menampilkan proyek yang telah saya buat selama ini.",
+    "en": "This portfolio showcases the projects I have created over the years."
+  },
+  "bio": {
+    "id": "Seorang mahasiswa Jurusan Informatika di Institut Teknologi Kalimantan yang adaptif dan komunikatif, dengan fokus pada pengembangan teknologi inovatif yang memberikan dampak positif bagi masyarakat. Saya memiliki perpaduan antara keahlian teknis termasuk penguasaan Microsoft Office dan kemampuan analitis serta soft skill yang kuat dalam kerja sama tim dan penulisan yang efektif. Dengan pengalaman dalam peran kepengurusan dan manajemen proyek, saya berkomitmen untuk terus belajar, meningkatkan kompetensi saya, dan memberikan kontribusi nyata bagi industri melalui pemikiran kritis dan kolaborasi.",
+    "en": "An adaptive and communicative Informatics student at the Institut Teknologi Kalimantan, focused on developing innovative technologies that create a positive impact on society. I possess a blend of technical proficiency including Microsoft Office and analytical skills and strong soft skills in teamwork and effective writing. With experience in organizational roles and project management, I am committed to continuous learning, enhancing my competencies, and making tangible contributions to the industry through critical thinking and collaboration."
+  },
+  "email": "christianimanueladmojo@gmail.com",
+  "social": {
+    "github": "https://github.com/Chrisimana",
+    "linkedin": "https://www.linkedin.com/in/christian-imanuel-admojo-a78102324/",
+    "instagram": "https://www.instagram.com/chrisimana/"
+  },
+  "cv": "/cv.pdf",
+  "seo": {
+    "title": {
+      "id": "Portofolio Christian Imanuel Admojo",
+      "en": "Christian Imanuel Admojo's Portfolio"
+    },
+    "description": {
+      "id": "Portofolio ini menampilkan proyek yang telah saya buat selama ini.",
+      "en": "This portfolio showcases the projects I have created over the years."
+    },
+    "ogImage": "/og-default.png"
+  }
+}

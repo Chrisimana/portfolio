@@ -4,14 +4,18 @@ import process from 'node:process'
 import tailwindcss from '@tailwindcss/vite'
 import matter from 'gray-matter'
 
+// URL kanonik situs untuk canonical, sitemap, hreflang, dan Open Graph.
+// Diambil dari env NUXT_PUBLIC_SITE_URL bila di-set (mis. saat memakai domain
+// kustom); kalau kosong, jatuh ke subdomain gratis Cloudflare Pages di bawah.
+// GANTI DEFAULT_SITE_URL bila nama proyek Pages-mu berbeda.
+const DEFAULT_SITE_URL = 'https://portfolio.pages.dev'
+const SITE_URL = process.env.NUXT_PUBLIC_SITE_URL?.trim() || DEFAULT_SITE_URL
+
 function assertSiteUrl(): void {
-  const siteUrl = process.env.NUXT_PUBLIC_SITE_URL?.trim()
-  if (!siteUrl) {
-    throw new Error(
-      '\n[config] NUXT_PUBLIC_SITE_URL kosong.\n'
-      + 'Variabel ini wajib untuk build produksi (canonical URL, sitemap, Open Graph).\n'
-      + 'Set di environment Cloudflare Pages atau di file .env lokal.\n'
-      + 'Lihat .env.example.\n',
+  if (!process.env.NUXT_PUBLIC_SITE_URL?.trim()) {
+    console.warn(
+      `\n[config] NUXT_PUBLIC_SITE_URL kosong — memakai default ${DEFAULT_SITE_URL}.\n`
+      + 'Set env ini di Cloudflare Pages saat memakai domain kustom.\n',
     )
   }
 }
@@ -100,7 +104,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      siteUrl: '',
+      siteUrl: SITE_URL,
       analyticsToken: '',
     },
   },
@@ -167,7 +171,7 @@ export default defineNuxtConfig({
     // bukan cookie/deteksi browser, konsisten dengan situs prerender penuh.
     detectBrowserLanguage: false,
     // Dasar URL absolut untuk hreflang & canonical.
-    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
+    baseUrl: SITE_URL,
   },
 
   image: {

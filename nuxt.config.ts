@@ -8,7 +8,7 @@ import matter from 'gray-matter'
 // Diambil dari env NUXT_PUBLIC_SITE_URL bila di-set (mis. saat memakai domain
 // kustom); kalau kosong, jatuh ke subdomain gratis Cloudflare Pages di bawah.
 // GANTI DEFAULT_SITE_URL bila nama proyek Pages-mu berbeda.
-const DEFAULT_SITE_URL = 'https://portfolio.pages.dev'
+const DEFAULT_SITE_URL = 'https://portfolio-wrg.pages.dev'
 const SITE_URL = process.env.NUXT_PUBLIC_SITE_URL?.trim() || DEFAULT_SITE_URL
 
 function assertSiteUrl(): void {
@@ -119,6 +119,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-09-04',
 
   nitro: {
+    // `i18n` strategy 'prefix' tak punya route `/` — arahkan root ke locale
+    // default. Ditulis ke `dist/_redirects` oleh preset cloudflare_pages.
+    routeRules: {
+      '/': { redirect: '/id' },
+    },
     prerender: {
       crawlLinks: true,
       routes: [

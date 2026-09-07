@@ -131,6 +131,12 @@ onBeforeUnmount(() => {
                 :size="14"
               />
             </a>
+            <span
+              v-else
+              class="flex min-h-11 items-center px-3 py-2 text-sm text-fg-subtle"
+            >
+              {{ t('actions.cvComingSoon') }}
+            </span>
           </nav>
 
           <div class="mt-auto flex items-center justify-between border-t border-border pt-4">

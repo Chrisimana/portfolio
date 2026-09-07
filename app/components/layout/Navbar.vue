@@ -102,6 +102,15 @@ onBeforeUnmount(() => {
             :size="14"
           />
         </Button>
+        <Button
+          v-else
+          variant="secondary"
+          size="sm"
+          disabled
+          :title="t('actions.cvComingSoon')"
+        >
+          {{ t('actions.cvComingSoon') }}
+        </Button>
       </div>
 
       <button

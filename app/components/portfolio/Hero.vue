@@ -71,6 +71,14 @@ const roles = computed(() => site.value?.roles[locale.value as 'id' | 'en'] ?? [
                 :size="16"
               />
             </Button>
+            <Button
+              v-else
+              variant="secondary"
+              disabled
+              :title="t('actions.cvComingSoon')"
+            >
+              {{ t('actions.cvComingSoon') }}
+            </Button>
           </div>
         </div>
 

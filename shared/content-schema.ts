@@ -114,7 +114,8 @@ export const siteSchema = z.object({
     instagram: trimmed.default(''),
     youtube: trimmed.default(''),
   }),
-  cv: publicAssetPath.or(z.literal('/cv.pdf')),
+  // string kosong = CV belum tersedia (UI menampilkan "coming soon").
+  cv: publicAssetPath.or(z.literal('/cv.pdf')).or(z.literal('')),
   seo: z.object({
     title: localizedString,
     description: localizedString,

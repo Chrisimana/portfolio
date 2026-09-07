@@ -7,7 +7,9 @@ export function useSiteConfig() {
     {
       getCachedData: (key, nuxtApp) => {
         if (import.meta.server) return undefined
-        return nuxtApp.payload.data[key] ?? nuxtApp.static.data[key] ?? null
+        // `undefined` bila belum ada (mis. navigasi klien dari halaman 404) agar
+        // useAsyncData query ulang — jangan `?? null`, itu dianggap "sudah ada".
+        return nuxtApp.payload.data[key] ?? nuxtApp.static.data[key]
       },
     },
   )

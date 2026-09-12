@@ -5,8 +5,8 @@
     "en": ["Informatics Student", "Front-End Developer", "Data Scientist", "UI/UX Designer"]
   },
   "headline": {
-    "id": "Portofolio ini menampilkan proyek yang telah saya buat selama ini.",
-    "en": "This portfolio showcases the projects I have created over the years."
+    "id": "Selamat datang di website pribadi saya, tempat untuk mengenal saya dan berbagai proyek yang telah saya kerjakan.",
+    "en": "Welcome to my personal website, a place to get to know me and explore the projects I have worked on."
   },
   "bio": {
     "id": "Seorang mahasiswa Jurusan Informatika di Institut Teknologi Kalimantan yang adaptif dan komunikatif, dengan fokus pada pengembangan teknologi inovatif yang memberikan dampak positif bagi masyarakat. Saya memiliki perpaduan antara keahlian teknis termasuk penguasaan Microsoft Office dan kemampuan analitis serta soft skill yang kuat dalam kerja sama tim dan penulisan yang efektif. Dengan pengalaman dalam peran kepengurusan dan manajemen proyek, saya berkomitmen untuk terus belajar, meningkatkan kompetensi saya, dan memberikan kontribusi nyata bagi industri melalui pemikiran kritis dan kolaborasi.",
@@ -25,8 +25,8 @@
       "en": "Christian Imanuel Admojo's Portfolio"
     },
     "description": {
-      "id": "Portofolio ini menampilkan proyek yang telah saya buat selama ini.",
-      "en": "This portfolio showcases the projects I have created over the years."
+      "id": "Selamat datang di website pribadi saya, tempat untuk mengenal saya dan berbagai proyek yang telah saya kerjakan.",
+      "en": "Welcome to my personal website, a place to get to know me and explore the projects I have worked on."
     },
     "ogImage": "/og-default.png"
   }

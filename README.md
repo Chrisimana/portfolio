@@ -38,6 +38,7 @@ Portofolio ini menampilkan proyek pengembangan dan desain yang telah saya kerjak
 | **Ecotopia Sphere** | Platform edukasi gaya hidup ramah lingkungan dengan showcase teknologi hijau dan ruang aksi komunitas | [Demo](https://ecotopia-sphere.vercel.app/) · [Kode](https://github.com/Chrisimana/ecotopia-sphere) |
 | **EcoTopia Sphere (Desain UI/UX)** | Perancangan antarmuka, alur pengguna, dan sistem komponen untuk EcoTopia Sphere, dikerjakan di Figma | [Figma](https://www.figma.com/design/lhdJK3EnwUYlHKJQvdhUNK/Website-%7C-EcoTopia-Sphere?node-id=3-11) |
 | **NearBy Balikpapan** | Direktori UMKM berbasis lokasi untuk menemukan usaha kecil menengah terdekat di Balikpapan (proyek tim, peran saya: Front-End & UI/UX) | [Demo](https://nearbybalikpapan.com/) · [Kode](https://github.com/Yoga141/NearBy-Bringing-Busines) |
+| **Finara** | Simulator edukasi keuangan pribadi tanpa akun untuk memahami pemasukan, mengatur pengeluaran, dan merencanakan tabungan | [Demo](https://finara-eight.vercel.app/) · [Kode](https://github.com/Chrisimana/finara) |
 
 Detail tiap proyek tersedia di halaman situs.
 
